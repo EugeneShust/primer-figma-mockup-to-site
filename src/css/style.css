@@ -50,7 +50,7 @@ body {
   font-size: 3rem;
 }
 
-.button {
+.tryforfree {
   display: block;
   margin-left: 2rem;
   padding: 1rem;
@@ -72,10 +72,22 @@ body {
   border-radius: 8px;
   width: 20rem;
   height: 35rem;
+  background-color: #BBADA0;
 }
 
 #text-demo {
   text-align: center;
+  margin-top: 23rem;
+}
+
+.continue {
+  display: block;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
 }
 
 .companies p {
