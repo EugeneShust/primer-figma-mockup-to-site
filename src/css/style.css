@@ -174,7 +174,7 @@ body {
 
   }
   
-  h2 {font-size: x-large;
+  .footer-h2 {font-size: x-large;
     color: #0b1d51;
   text-align: center;
   padding: 4rem;
@@ -206,7 +206,8 @@ align-items: center;
 
 fieldset {background-color: #797596;
 }
- h1 {
+ 
+.prices-h1 {
     font-size: 35px;
     text-align: center;
     margin-bottom: 10px;
@@ -288,7 +289,7 @@ fieldset {background-color: #797596;
   
   
   
-  h2 {
+  .prices-h2 {
   
     font-size: 25px;
 
@@ -296,7 +297,7 @@ fieldset {background-color: #797596;
     text-align: center;
   }
   
-  p {
+  .prices-p {
   
     font-size: 40px;
     
@@ -343,7 +344,7 @@ fieldset {background-color: #797596;
 }
 
 #video-header-h2 {
-  margin-top: 54px;
+  margin-top: 24px;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
