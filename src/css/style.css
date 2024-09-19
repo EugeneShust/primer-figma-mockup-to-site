@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items:center;
-  background: #ABABAB
+  background: #BBADA0;
 }
 
 #video-header-h2 {
@@ -63,7 +63,7 @@ body {
   gap: 0px;
   opacity: 0px;
    
-  background: #C4C4C4;
+  background: #D1C6AD;
 
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ body {
 
 .flex-element {
   margin-top: 46px;
-  background: #C4C4C4;
+  background: #D1C6AD;
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ body {
   align-items:center;
   align-items:center;
 
-  background:#EDEDED;
+  background:#797596;
 }
 
 .why-choose-h2 {
