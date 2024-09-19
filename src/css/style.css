@@ -12,6 +12,7 @@ body {
 
 #home {
   /* border: 1px solid; */
+  background-color: #A1869E;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -19,7 +20,7 @@ body {
 
 #upper-home {
   /* border: 1px solid green; */
-  margin: 1rem;
+  /* margin: 1rem; */
   margin-left: 12rem;
   margin-right: 12rem;
   display: flex;
