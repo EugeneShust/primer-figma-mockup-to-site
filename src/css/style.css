@@ -91,3 +91,7 @@ align-items: center;
   background-position: center;
   background-color: transparent;
 }
+
+
+fieldset {background-color: #797596;
+}
