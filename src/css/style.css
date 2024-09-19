@@ -3,4 +3,95 @@
     margin: 0;
     padding: 0;
   }
+  body {
+    font-family: Roboto;
+  }
+
+  .navbar {
+    background-color: #0b1d51;
+    display: flex;
+  }
+  .navbar img{
+    object-fit: cover;
+    width: 10%;
+    background-color: #797596;
+    margin-right: 6rem;
+  }
+    .nav-links {
+      margin-top: rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
   
+      gap: 3rem;
+      padding: 2rem;
+      margin: 1rem;
+      list-style-type: none;
+  
+    }
+  
+    .nav-links a {
+      color: #d1c6ad;
+      text-decoration: none;
+    }
+    .nav-links a:hover {
+      color: #797596;
+    }
+  footer {
+    background-color: #797596;
+  
+  }
+  .footer-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .footer-links a {
+    color: #bbada0;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    display: flex;
+    background-color: #bbada0;
+    color: #797596;
+    border-radius: 100%;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+    align-items: center;
+
+  }
+  
+  h2 {font-size: x-large;
+    color: #0b1d51;
+  text-align: center;
+  padding: 4rem;
+}
+.footer-dots {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  justify-items: center;
+  padding: 4rem;
+  list-style: none;
+}
+.footer-dots li {
+  display: flex;
+  background-color: #a1869e;
+  border-radius: 100%;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+align-items: center;
+
+}
+.footer-dots li:hover {
+  background-image: url("https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Yd51Ue_TfueMIDfg5WS4XwHaLH%26pid%3DApi&sp=1726748524Tb9d816a726bab0131457d43d87081a2e733e06036006d0e61f42d3e7b8b8029f");
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+
+fieldset {background-color: #797596;
+}
