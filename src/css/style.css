@@ -1,11 +1,121 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-family: Roboto;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* home start */
+
+#home {
+  /* border: 1px solid; */
+  background-color: #A1869E;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+#upper-home {
+  /* border: 1px solid green; */
+  /* margin: 1rem; */
+  margin-left: 12rem;
+  margin-right: 12rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-left {
+  margin: 2rem;
+  width: 35rem;
+  height: 35rem;
+  outline: 2px solid #797596;
+  text-align: left;
+  background-color: #BBADA0;
+}
+
+
+.inline-box {
+  margin: 1rem;
+  margin-top: 3rem;
+  margin-right: 12rem;
+  padding: .5rem;
+  background-color: #D1C6AD;
+}
+
+#text-catchy {
+  margin: 1rem;
+  margin-top: 10rem;
+}
+
+.box-left h1 {
+  font-size: 3rem;
+}
+
+.tryforfree {
+  display: block;
+  margin-left: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 7rem;
+}
+
+.button:hover {
+  outline: 4px solid 0B1D51;
+}
+.button:active {
+  color: #0B1D51;
+}
+
+.box-right {
+  margin: 2rem;
+  outline: 2px solid #797596;
+  border-radius: 8px;
+  width: 20rem;
+  height: 35rem;
+  background-color: #BBADA0;
+}
+
+#text-demo {
+  text-align: center;
+  margin-top: 23rem;
+}
+
+.continue {
+  display: block;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+#lower-home p {
+  text-align: center;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 4rem;
+  gap: 1rem;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  outline: 2px solid #797596;
+}
+
+/* home end */
 
   .navbar {
     background-color: #0b1d51;
