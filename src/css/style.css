@@ -121,6 +121,7 @@ body {
     background-color: #0b1d51;
     display: flex;
   }
+
   .navbar img{
     object-fit: cover;
     width: 10%;
@@ -205,3 +206,121 @@ align-items: center;
 
 fieldset {background-color: #797596;
 }
+ h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .text {
+    font-size: 12px;
+    text-align: center;
+  
+  }
+
+  body { 
+    font-family: Roboto;
+    background-color:#BBADA0;
+    max-width: 1440px;
+    margin: auto;
+  }
+  
+  .price-container {
+    display: flex; /* Aktiviert Flexbox */
+    justify-content: space-around; /* Verteilt die Boxen gleichmäßig */
+    margin-top: 50px; /* Abstand nach oben */
+    margin-inline-start: 150px;
+    margin-inline-end: 150px;
+    margin-bottom: 70px;
+    
+   
+  }
+  
+  
+  .basis {
+   
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Feste Breite für die Boxen */
+    text-align: center;
+
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    color: rgb(254, 253, 253);
+    box-shadow: 0px 2px 15px white;
+    color: black;
+    
+    
+  }
+  
+  
+  
+  
+  .Standart {
+    
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Feste Breite für die Boxen */
+    text-align: center;
+    background-color: #A1869E;
+    color:rgb(12, 110, 186);
+    box-shadow: 0px 2px 15px #A1869E;
+    color: #061322;
+  }
+  
+  .Premium {
+  
+    
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Feste Breite für die Boxen */
+    text-align: center;
+    background-color:#797596;
+  box-shadow: 0px 2px 15px #797596;
+  color: rgb(4, 3, 3);
+  
+   
+  }
+ 
+
+  
+  
+  
+  
+  h2 {
+  
+    font-size: 25px;
+
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  
+  p {
+  
+    font-size: 40px;
+    
+    margin-bottom: 60px;
+    text-align: center;
+    
+    
+  }
+  
+  button {  
+    background-color:#3b4854; ;
+    border:none;
+    height: 45px;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    
+   
+  
+    
+  
+  
+  
+  
+  }
